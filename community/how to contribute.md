@@ -16,13 +16,13 @@
   -->
 
 # Contributing to Uniffle
-Welcome to report [Issues](https://github.com/apache/incubator-uniffle/issues) or make [pull requests](https://github.com/apache/incubator-uniffle/pulls). It's recommended to read the following contributing guide first before contributing. 
+Welcome to report [Issues](https://github.com/apache/uniffle/issues) or make [pull requests](https://github.com/apache/uniffle/pulls). It's recommended to read the following contributing guide first before contributing. 
 
 ## Issues
 We use GitHub Issues to track public bugs and feature requests.
 
 ### Search Known Issues First
-Please search on [Issues](https://github.com/apache/incubator-uniffle/issues) to avoid creating duplicate issues.
+Please search on [Issues](https://github.com/apache/uniffle/issues) to avoid creating duplicate issues.
 
 ### Reporting New Issues
 * Be sure to include a title and clear description, as much relevant information as possible.
@@ -48,6 +48,6 @@ Before submitting a pull request, please make sure the followings are done:
 5. Test and test again your code.
 
 ## Code Style Guide
-Use [Code Style](https://github.com/apache/incubator-uniffle/blob/master/checkstyle.xml) for Java.
+Use [Code Style](https://github.com/apache/uniffle/blob/master/checkstyle.xml) for Java.
 
 * 2 spaces for indentation rather than tabs

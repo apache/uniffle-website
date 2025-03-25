@@ -1,4 +1,4 @@
-# incubator-uniffle-website
+# uniffle-website
 
 local startup
 ```shell

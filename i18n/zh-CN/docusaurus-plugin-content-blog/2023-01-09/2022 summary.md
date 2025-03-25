@@ -14,16 +14,16 @@
   ~ See the License for the specific language governing permissions and
   ~ limitations under the License.
   -->
-# Apache Uniffle (incubating) - 2022 年终总结
+# Apache Uniffle - 2022 年终总结
   
 ## 引言
 
-2020 年底，Apache Uniffle (incubating) 在腾讯内部写下了他的第一行代码，21 年 11 月份对外开源，22 年中被捐献给了 Apache 基金会。自被捐献给了 Apache 基金会后，它吸引了较多来自各个公司的开发者。本文瑾对 Apache Uniffle (incubating) 2022 做个简单的小结。
+2020 年底，Apache Uniffle 在腾讯内部写下了他的第一行代码，21 年 11 月份对外开源，22 年中被捐献给了 Apache 基金会。自被捐献给了 Apache 基金会后，它吸引了较多来自各个公司的开发者。本文瑾对 Apache Uniffle 2022 做个简单的小结。
 
 ## 时间线
-Apache Uniffle (Incubating) 于 2022 年 6 月 6 日进行 Apache 孵化器，截止到 2022 年 12 月底 (当前写作时间：2022.12.26)，共新建了 157 个 Issue (其中 76 个被关闭或者解决)， 新增了 272 个 PRs (其中 264 个被合入或者关闭)。
+Apache Uniffle 于 2022 年 6 月 6 日进行 Apache 孵化器，截止到 2022 年 12 月底 (当前写作时间：2022.12.26)，共新建了 157 个 Issue (其中 76 个被关闭或者解决)， 新增了 272 个 PRs (其中 264 个被合入或者关闭)。
 
-Apache Uniffle (incubating) 2022 年共发布了两个版本：0.6.0 和 0.6.1。 其中：
+Apache Uniffle 2022 年共发布了两个版本：0.6.0 和 0.6.1。 其中：
 1. 2022.10.27：0.6.0 版本发布
 2. 2022.11.30：0.6.1 版本发布
 
@@ -43,13 +43,13 @@ Apache Uniffle (incubating) 2022 年共发布了两个版本：0.6.0 和 0.6.1�
 除上述已发布的两个版本，当前 master 分支中，引入了 local order，以应对 Spark AQE 的数据倾斜优化，相比于未优化版本，性能提升 3 倍。
 
 ## 社区运营情况
-Apache Uniffle (incubating) 自进入孵化器以来，增加了贡献者22人，共有贡献者33人，贡献者来自腾讯，爱奇艺，Ebay，滴滴，顺丰，百度，字节，京东，B站，Databricks等互联网公司。在新增的 22 名贡献者中，Apache Uniffle (incubating) PMC 根据贡献度, 投票选择了新增了2名 committer。希望两位新增 Committer 可以在接下来的一年对 Apache Uniffle (incubating) 持续贡献。
+Apache Uniffle 自进入孵化器以来，增加了贡献者22人，共有贡献者33人，贡献者来自腾讯，爱奇艺，Ebay，滴滴，顺丰，百度，字节，京东，B站，Databricks等互联网公司。在新增的 22 名贡献者中，Apache Uniffle PMC 根据贡献度, 投票选择了新增了2名 committer。希望两位新增 Committer 可以在接下来的一年对 Apache Uniffle 持续贡献。
 
 ## 使用情况
-根据跟贡献者和使用者的线上/线下沟通交流，当前 Apache Uniffle (incubating) 在腾讯，爱奇艺，滴滴，顺丰，维品会，B 站，货拉拉等公司均有生产使用。多家公司 Uniffle 处理的 Shuffle 数据量日均超过 PB，运行的 App 数过万。其使用的场景除解决原生 shuffle 的稳定性/扩展性问题外，也为了满足存算分离的计算资源，提升整体资源的利用率。
+根据跟贡献者和使用者的线上/线下沟通交流，当前 Apache Uniffle 在腾讯，爱奇艺，滴滴，顺丰，维品会，B 站，货拉拉等公司均有生产使用。多家公司 Uniffle 处理的 Shuffle 数据量日均超过 PB，运行的 App 数过万。其使用的场景除解决原生 shuffle 的稳定性/扩展性问题外，也为了满足存算分离的计算资源，提升整体资源的利用率。
 
 ## 后续规划
-在 2023 年，Apache Uniffle(incubating) 将继续以提供高效，普适的 Shuffle Service 为目标。目前有如下的工作在规划列表中：
+在 2023 年，Apache Uniffle 将继续以提供高效，普适的 Shuffle Service 为目标。目前有如下的工作在规划列表中：
 1. 更完整地计算引擎生态：
    - 支持 Tez 计算框架
    - 支持 Flink 计算框架

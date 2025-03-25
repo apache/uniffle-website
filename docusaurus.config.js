@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Apache Uniffle (Incubating)',
+    title: 'Apache Uniffle',
     tagline: 'A high performance, general purpose remote shuffle service for distributed computing engines.',
     url: 'https://uniffle.apache.org/',
     baseUrl: '/',
@@ -15,7 +15,7 @@ const config = {
     favicon: 'img/favicon.ico',
 
     organizationName: 'apache',
-    projectName: 'incubator-uniffle-website',
+    projectName: 'uniffle-website',
 
     i18n: {
         defaultLocale: 'en',
@@ -57,11 +57,11 @@ const config = {
                     showLastUpdateAuthor: true,
                     showLastUpdateTime: true,
                     sidebarPath: require.resolve('./sidebars.js'),
-                    editUrl: 'https://github.com/apache/incubator-uniffle',
+                    editUrl: 'https://github.com/apache/uniffle',
                 },
                 blog: {
                     showReadingTime: true,
-                    editUrl: 'https://github.com/apache/incubator-uniffle',
+                    editUrl: 'https://github.com/apache/uniffle',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -74,9 +74,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             navbar: {
-                title: 'Apache Uniffle (Incubating)',
+                title: 'Apache Uniffle',
                 logo: {
-                    alt: 'Apache Uniffle (Incubating)',
+                    alt: 'Apache Uniffle',
                     src: 'img/uniffle-logo.png',
                 },
                 items: [
@@ -103,7 +103,7 @@ const config = {
                         position: 'right',
                     },
                     {
-                        href: 'https://github.com/apache/incubator-uniffle',
+                        href: 'https://github.com/apache/uniffle',
                         position: 'right',
                         className: 'header-github-link',
                         'aria-label': 'GitHub repository',
@@ -131,7 +131,7 @@ const config = {
                             },
                             {
                                 label: 'Issue Tracker',
-                                href: 'https://github.com/apache/incubator-uniffle/issues',
+                                href: 'https://github.com/apache/uniffle/issues',
                             },
                         ],
                     },
@@ -140,7 +140,7 @@ const config = {
                         items: [
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/apache/incubator-uniffle',
+                                href: 'https://github.com/apache/uniffle',
                             },
                         ],
                     },
@@ -152,9 +152,9 @@ const config = {
                 },
                 copyright: `<div style="text-align: left;">
           <div>
-            <p style="font-family: Avenir-Medium;font-size: 14px;color: #999;line-height: 20px;"> Apache Uniffle (Incubating) is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by the Apache Incubator. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF. </p>
+            <p style="font-family: Avenir-Medium;font-size: 14px;color: #999;line-height: 20px;"> Apache Uniffle is an effort undergoing incubation at The Apache Software Foundation (ASF), sponsored by the Apache Incubator. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF. </p>
           </div>
-          <div style="border-top: 1px solid #ccc;min-height: 60px;line-height: 20px;text-align: center;font-family: Avenir-Medium;font-size: 14px;color: #999;display: flex;align-items: center;"><span>Copyright © ${new Date().getFullYear()} The Apache Software Foundation. Apache Uniffle (Incubating), Uniffle, and its feather logo are trademarks of The Apache Software Foundation.</span></div>
+          <div style="border-top: 1px solid #ccc;min-height: 60px;line-height: 20px;text-align: center;font-family: Avenir-Medium;font-size: 14px;color: #999;display: flex;align-items: center;"><span>Copyright © ${new Date().getFullYear()} The Apache Software Foundation. Apache Uniffle, Uniffle, and its feather logo are trademarks of The Apache Software Foundation.</span></div>
         </div>`,
             },
             prism: {

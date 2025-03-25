@@ -20,7 +20,7 @@ cd /deploy/kubernetes/docker && sh build.sh --registry ${our-registry}
 ## Creating or Updating CRD
 
 We can refer
-to [crd yaml file](https://github.com/apache/incubator-uniffle/tree/master/deploy/kubernetes/operator/config/crd/bases/uniffle.apache.org_remoteshuffleservices.yaml).
+to [crd yaml file](https://github.com/apache/uniffle/tree/master/deploy/kubernetes/operator/config/crd/bases/uniffle.apache.org_remoteshuffleservices.yaml).
 
 Run the following command:
 
@@ -30,7 +30,7 @@ kubectl apply -f ${crd-yaml-file}
 
 ## Setup or Update Uniffle Webhook
 
-We can refer to [webhook yaml file](https://github.com/apache/incubator-uniffle/tree/master/deploy/kubernetes/operator/config/manager/rss-webhook.yaml).
+We can refer to [webhook yaml file](https://github.com/apache/uniffle/tree/master/deploy/kubernetes/operator/config/manager/rss-webhook.yaml).
 
 Run the following command:
 
@@ -40,7 +40,7 @@ kubectl apply -f ${webhook-yaml-file}
 
 ## Setup or Update Uniffle Controller
 
-We can refer to [controller yaml file](https://github.com/apache/incubator-uniffle/tree/master/deploy/kubernetes/operator/config/manager/rss-controller.yaml).
+We can refer to [controller yaml file](https://github.com/apache/uniffle/tree/master/deploy/kubernetes/operator/config/manager/rss-controller.yaml).
 
 Run the following command:
 

@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Uniffle 是一个远程 Shuffle 服务，它为 Apache Spark 应用程序提供了在远程服务器上存储 Shuffle 数据的功能。
 
-[![Build](https://github.com/apache/incubator-uniffle/actions/workflows/build.yml/badge.svg?branch=master&event=push)](https://github.com/apache/incubator-uniffle/actions/workflows/build.yml)
+[![Build](https://github.com/apache/uniffle/actions/workflows/build.yml/badge.svg?branch=master&event=push)](https://github.com/apache/uniffle/actions/workflows/build.yml)
 [![Codecov](https://codecov.io/gh/apache/incubator-uniffle/branch/master/graph/badge.svg)](https://codecov.io/gh/apache/incubator-uniffle)
 
 ## 架构
@@ -242,11 +242,11 @@ MapReduce 的 jar 位于 /jars/client/mr/rss-client-mr-XXXXX-shaded.jar
 
 ### Shuffle 客户端
 
-有关进阶配置的详细信息，请参阅 [Uniffle Shuffle 客户指南](https://github.com/apache/incubator-uniffle/blob/master/docs/client_guide.md)。
+有关进阶配置的详细信息，请参阅 [Uniffle Shuffle 客户指南](https://github.com/apache/uniffle/blob/master/docs/client_guide.md)。
 
 ## 许可证
 
-Uniffle 采用 Apache 2.0 许可证。 详请请见 [许可证](https://github.com/apache/incubator-uniffle/blob/master/LICENSE) 文件.
+Uniffle 采用 Apache 2.0 许可证。 详请请见 [许可证](https://github.com/apache/uniffle/blob/master/LICENSE) 文件.
 
 ## 贡献
-有关贡献的 issue 或 PR 的更多信息，请参阅 [Uniffle 贡献指南](https://github.com/apache/incubator-uniffle/blob/master/CONTRIBUTING.md)。
+有关贡献的 issue 或 PR 的更多信息，请参阅 [Uniffle 贡献指南](https://github.com/apache/uniffle/blob/master/CONTRIBUTING.md)。

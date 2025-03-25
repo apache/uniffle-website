@@ -242,13 +242,13 @@ All Uniffle to checksums, signatures, and public keys must refer to the main Apa
 
 ```html
 title:
-[VOTE] Release Apache Uniffle (Incubating) ${release_version} ${rc_version}
+[VOTE] Release Apache Uniffle ${release_version} ${rc_version}
 
 content:
 
 Hello Uniffle Community,
 
-    This is a call for vote to release Apache Uniffle (Incubating) version ${release_version}-${rc_version}.
+    This is a call for vote to release Apache Uniffle version ${release_version}-${rc_version}.
 
     Release notes:
         https://uniffle.apache.org/download/release-notes-${release_version}
@@ -260,7 +260,7 @@ Hello Uniffle Community,
         https://repository.apache.org/content/repositories/orgapacheuniffle-${staging_id}/
     
     Git tag for the release:
-        https://github.com/apache/incubator-uniffle/tree/v${release_version}-${rc_version}
+        https://github.com/apache/uniffle/tree/v${release_version}-${rc_version}
     
     Keys to verify the Release Candidate:
         https://dist.apache.org/repos/dist/dev/incubator/uniffle/KEYS
@@ -296,7 +296,7 @@ ${Uniffle Release Manager}
 
 ```html
 title:
-[RESULT][VOTE] Release Apache Uniffle (Incubating) ${release_version} ${rc_version}
+[RESULT][VOTE] Release Apache Uniffle ${release_version} ${rc_version}
 
 content:
 Hello Apache Uniffle PPMC and Community,
@@ -324,17 +324,17 @@ ${Uniffle Release Manager}
 #### 4.2.1 Incubator community voting template
 
 ```html
-Title: [VOTE] Release Apache Uniffle (Incubating) ${release_version} ${rc_version}
+Title: [VOTE] Release Apache Uniffle ${release_version} ${rc_version}
 
 content:
 
 Hello Incubator Community,
 
-    This is a call for a vote to release Apache Uniffle (Incubating) version
+    This is a call for a vote to release Apache Uniffle version
     ${release_version} ${rc_version}
 
     The Apache Uniffle community has voted on and approved a proposal to release
-    Apache Uniffle (Incubating) version ${release_version} ${rc_version}
+    Apache Uniffle version ${release_version} ${rc_version}
 
     We now kindly request the Incubator PMC members review and vote on this
     incubator release.
@@ -349,7 +349,7 @@ Hello Incubator Community,
     • https://dist.apache.org/repos/dist/dev/incubator/uniffle/${release_version}-${rc_version}/
 
     Git tag for the release:
-    • https://github.com/apache/incubator-uniffle/releases/tag/${release_version}-${rc_version}
+    • https://github.com/apache/uniffle/releases/tag/${release_version}-${rc_version}
 
     Release notes:
     • https://uniffle.apache.org/download/release-notes-${release_version}
@@ -366,7 +366,7 @@ Hello Incubator Community,
     [] -1 disapprove with the reason
 
 Thanks,
-On behalf of Apache Uniffle (Incubating) community
+On behalf of Apache Uniffle community
 
 ```
 
@@ -378,7 +378,7 @@ Title: [RESULT][VOTE] Release Apache Uniffle ${release_version} {rc_version}
 content:
 Hi all
 
-Thanks for reviewing and voting for Apache Uniffle (Incubating) ${release_version} {rc_version}
+Thanks for reviewing and voting for Apache Uniffle ${release_version} {rc_version}
 release, I am happy to announce the release voting has passed with [Number of voting results]
 binding votes, no +0 or -1 votes. Binding votes are from IPMC members
 
@@ -390,11 +390,11 @@ The voting thread is:
 [Incubator community Vote Link]
 
 Many thanks for all our mentors helping us with the release procedure, and all IPMC members
-helping us to review and vote for Apache Uniffle (Incubating) release. I will
+helping us to review and vote for Apache Uniffle release. I will
 be working on publishing the artifacts soon.
 
 Thanks
-On behalf of Apache Uniffle (Incubating) community
+On behalf of Apache Uniffle community
 ```
 ## 5 Official release
 
@@ -438,7 +438,7 @@ After waiting and confirming that the new release version is synced to the Apach
 ### 5.5 GitHub version released
 
 1. Tag the official version, and the RC version tag during the voting process can be removed
-2. On the [GitHub Releases](https://github.com/apache/incubator-uniffle/releases) page, update the version number and version description, etc.
+2. On the [GitHub Releases](https://github.com/apache/uniffle/releases) page, update the version number and version description, etc.
 
 
 ## 6 Email notification version is released
@@ -448,15 +448,15 @@ After waiting and confirming that the new release version is synced to the Apach
 Send email to `dev@uniffle.apache.org`, `announce@apache.org` and `general@incubator.apache.org`
 ```html
 title:
-[ANNOUNCE] Apache Uniffle (Incubating) ${release_version} available
+[ANNOUNCE] Apache Uniffle ${release_version} available
 
 content:
 
 Hi all,
 
-Apache Uniffle (Incubating) Team is glad to announce the new release of Apache Uniffle (Incubating) ${release_version}.
+Apache Uniffle Team is glad to announce the new release of Apache Uniffle ${release_version}.
 
-Apache Uniffle (Incubating) is designed as a unified shuffle engine for multiple computing frameworks, including Apache Spark and Apache Hadoop. Uniffle has provided pluggable client plugins to enable remote shuffle in Spark, Flink, MapReduce and TEZ.
+Apache Uniffle is designed as a unified shuffle engine for multiple computing frameworks, including Apache Spark and Apache Hadoop. Uniffle has provided pluggable client plugins to enable remote shuffle in Spark, Flink, MapReduce and TEZ.
 
 Download Links: https://uniffle.apache.org/download/
 
@@ -465,10 +465,10 @@ Release Notes: https://uniffle.apache.org/download/release-notes-${release_versi
 Website: https://uniffle.apache.org/
 
 Uniffle Resources:
-- Issue: https://github.com/apache/incubator-uniffle/issues
+- Issue: https://github.com/apache/uniffle/issues
 - Mailing list: dev@uniffle.apache.org
 
-Apache Uniffle (Incubating) Team
+Apache Uniffle Team
 ```
 
 
@@ -507,11 +507,11 @@ rm -rf dist
 mkdir -p dist/apache-uniffle
 
 #step1 Packaging source files
-git archive --format=tar.gz --output="dist/apache-uniffle/apache-uniffle-$release_version-incubating-src.tar.gz"  --prefix=apache-uniffle-$release_version-incubating-src/   $git_branch
-echo  "git archive --format=tar.gz --output='dist/apache-uniffle/apache-uniffle-$release_version-incubating-src.tar.gz' --prefix=apache-uniffle-$release_version-incubating-src/   $git_branch"
+git archive --format=tar.gz --output="dist/apache-uniffle/apache-uniffle-$release_version-src.tar.gz"  --prefix=apache-uniffle-$release_version-src/   $git_branch
+echo  "git archive --format=tar.gz --output='dist/apache-uniffle/apache-uniffle-$release_version-src.tar.gz' --prefix=apache-uniffle-$release_version-src/   $git_branch"
 
 #step2 Copy the binary package
-cp uniffle-dist/target/apache-uniffle-$release_version-incubating-bin.tar.gz dist/apache-uniffle
+cp uniffle-dist/target/apache-uniffle-$release_version-bin.tar.gz dist/apache-uniffle
 
 #step3 Signature
 
