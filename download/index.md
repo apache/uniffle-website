@@ -21,9 +21,9 @@ limitations under the License.
 {% endcomment %}
 -->
 
-## Apache Uniffle (incubating) Downloads
+## Apache Uniffle Downloads
 
-Apache Uniffle (incubating) is released as a source artifact.
+Apache Uniffle is released as a source artifact.
 The latest release is `0.9.1`.
 
 ### Releases
@@ -44,7 +44,7 @@ The latest release is `0.9.1`.
     </thead>
     <tbody>
         <tr>
-            <td>Apache Uniffle 0.9.2 (incubating)</td>
+            <td>Apache Uniffle 0.9.2</td>
             <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-src.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org//incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-src.tar.gz.asc">ASC</a></td>
@@ -56,7 +56,7 @@ The latest release is `0.9.1`.
             <td>2025.01.09</td>
         </tr>
         <tr>
-            <td>Apache Uniffle 0.9.1 (incubating)</td>
+            <td>Apache Uniffle 0.9.1</td>
             <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.9.1/apache-uniffle-0.9.1-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.9.1/apache-uniffle-0.9.1-incubating-src.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org//incubator/uniffle/0.9.1/apache-uniffle-0.9.1-incubating-src.tar.gz.asc">ASC</a></td>
@@ -68,7 +68,7 @@ The latest release is `0.9.1`.
             <td>2024.12.05</td>
         </tr>
         <tr>
-            <td>Apache Uniffle 0.9.0 (incubating)</td>
+            <td>Apache Uniffle 0.9.0</td>
             <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.9.0/apache-uniffle-0.9.0-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.9.0/apache-uniffle-0.9.0-incubating-src.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.9.0/apache-uniffle-0.9.0-incubating-src.tar.gz.asc">ASC</a></td>
@@ -80,7 +80,7 @@ The latest release is `0.9.1`.
             <td>2024.07.15</td>
         </tr>
         <tr>
-            <td>Apache Uniffle 0.8.0 (incubating)</td>
+            <td>Apache Uniffle 0.8.0</td>
             <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-src.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.8.0/apache-uniffle-0.8.0-incubating-src.tar.gz.asc">ASC</a></td>
@@ -92,7 +92,7 @@ The latest release is `0.9.1`.
             <td>2023.12.14</td>
         </tr>
         <tr>
-            <td>Apache Uniffle 0.7.1 (incubating)</td>
+            <td>Apache Uniffle 0.7.1</td>
             <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.7.1/apache-uniffle-0.7.1-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.1/apache-uniffle-0.7.1-incubating-src.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.1/apache-uniffle-0.7.1-incubating-src.tar.gz.asc">ASC</a></td>
@@ -104,7 +104,7 @@ The latest release is `0.9.1`.
             <td>2023.07.10</td>
         </tr>
         <tr>
-            <td>Apache Uniffle 0.7.0 (incubating)</td>
+            <td>Apache Uniffle 0.7.0</td>
             <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.7.0/apache-uniffle-0.7.0-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.0/apache-uniffle-0.7.0-incubating-src.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.7.0/apache-uniffle-0.7.0-incubating-src.tar.gz.asc">ASC</a></td>
@@ -116,7 +116,7 @@ The latest release is `0.9.1`.
             <td>2023.04.10</td>
         </tr>
         <tr>
-            <td>Apache Uniffle 0.6.1 (incubating)</td>
+            <td>Apache Uniffle 0.6.1</td>
             <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.6.1/apache-uniffle-0.6.1-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.1/apache-uniffle-0.6.1-incubating-src.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.1/apache-uniffle-0.6.1-incubating-src.tar.gz.asc">ASC</a></td>
@@ -128,7 +128,7 @@ The latest release is `0.9.1`.
             <td>2022.12.09</td>
         </tr>
          <tr>
-            <td>Apache Uniffle 0.6.0 (incubating)</td>
+            <td>Apache Uniffle 0.6.0</td>
             <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz.sha512">SHA-512</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.6.0/apache-uniffle-0.6.0-incubating-src.tar.gz.asc">ASC</a></td>

@@ -22,7 +22,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="https://github.com/apache/incubator-uniffle">
+            to="https://github.com/apache/uniffle">
             GitHub
           </Link>
         </div>

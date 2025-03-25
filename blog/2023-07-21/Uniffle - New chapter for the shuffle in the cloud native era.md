@@ -96,7 +96,7 @@ Uniffle has designed both bitmap index filtering and file index filtering mechan
 
 
 ### Performance evaluation
-When using version 0.2 of Uniffle and conducting benchmarks, Uniffle's shuffle performance is similar to Spark's vanilla shuffle for small data volumes. However, for large data volumes, Uniffle's shuffle outperforms Spark's vanilla shuffle by up to 30%. The benchmark results can be found at the following link: https://github.com/apache/incubator-uniffle/blob/master/docs/benchmark.md
+When using version 0.2 of Uniffle and conducting benchmarks, Uniffle's shuffle performance is similar to Spark's vanilla shuffle for small data volumes. However, for large data volumes, Uniffle's shuffle outperforms Spark's vanilla shuffle by up to 30%. The benchmark results can be found at the following link: https://github.com/apache/uniffle/blob/master/docs/benchmark.md
 
 ##  Correctness
 
@@ -168,15 +168,15 @@ Currently, there are no companies participating in the community with deployment
 5. Asynchronous data reading support for compute engines.
 
 ## Summary
-Uniffle has been designed with a focus on performance, correctness, stability, and cost-effectiveness, making it a suitable Shuffle system for cloud-native architectures. We welcome everyone to contribute to the Uniffle project. The Uniffle project can be found at https://github.com/apache/incubator-uniffle.
+Uniffle has been designed with a focus on performance, correctness, stability, and cost-effectiveness, making it a suitable Shuffle system for cloud-native architectures. We welcome everyone to contribute to the Uniffle project. The Uniffle project can be found at https://github.com/apache/uniffle.
 
 ## Reference
 [1] https://cloud.tencent.com/developer/article/1903023
 
 [2] https://cloud.tencent.com/developer/article/1943179
 
-[3] https://github.com/apache/incubator-uniffle/pull/137
+[3] https://github.com/apache/uniffle/pull/137
 
-[4] https://github.com/apache/incubator-uniffle/pull/307
+[4] https://github.com/apache/uniffle/pull/307
 
-[5] https://github.com/apache/incubator-uniffle/pull/950
+[5] https://github.com/apache/uniffle/pull/950

@@ -8,7 +8,7 @@ sidebar_position: 1
 Uniffle is a Remote Shuffle Service, and provides the capability for Apache Spark applications
 to store shuffle data on remote servers.
 
-[![Build](https://github.com/apache/incubator-uniffle/actions/workflows/build.yml/badge.svg?branch=master&event=push)](https://github.com/apache/incubator-uniffle/actions/workflows/build.yml)
+[![Build](https://github.com/apache/uniffle/actions/workflows/build.yml/badge.svg?branch=master&event=push)](https://github.com/apache/uniffle/actions/workflows/build.yml)
 [![Codecov](https://codecov.io/gh/apache/incubator-uniffle/branch/master/graph/badge.svg)](https://codecov.io/gh/apache/incubator-uniffle)
 
 ## Architecture
@@ -244,11 +244,11 @@ The important configuration is listed as following.
 
 ### Shuffle Client
 
-For more details of advanced configuration, please see [Uniffle Shuffle Client Guide](https://github.com/apache/incubator-uniffle/blob/master/docs/client_guide.md).
+For more details of advanced configuration, please see [Uniffle Shuffle Client Guide](https://github.com/apache/uniffle/blob/master/docs/client_guide.md).
 
 ## LICENSE
 
-Uniffle is under the Apache License Version 2.0. See the [LICENSE](https://github.com/apache/incubator-uniffle/blob/master/LICENSE) file for details.
+Uniffle is under the Apache License Version 2.0. See the [LICENSE](https://github.com/apache/uniffle/blob/master/LICENSE) file for details.
 
 ## Contributing
-For more information about contributing issues or pull requests, see [Uniffle Contributing Guide](https://github.com/apache/incubator-uniffle/blob/master/CONTRIBUTING.md).
+For more information about contributing issues or pull requests, see [Uniffle Contributing Guide](https://github.com/apache/uniffle/blob/master/CONTRIBUTING.md).

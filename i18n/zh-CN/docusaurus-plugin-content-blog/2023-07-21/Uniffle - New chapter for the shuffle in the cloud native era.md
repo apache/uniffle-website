@@ -96,7 +96,7 @@ Uniffle 分别针对内存数据和存储介质数据设计了 Bitmap 索引过�
 
 
 ### 性能测试
-使用 0.2 版本时，Uniffle 通过进行 Benchmark 发现，小数据量的 Shuffle 可以和 Spark 原生 Shuffle 持平。大数据量的 Shuffle 可以比 Spark 原生 Shuffle 快 30%。Benchmark结果链接: https://github.com/apache/incubator-uniffle/blob/master/docs/benchmark.md
+使用 0.2 版本时，Uniffle 通过进行 Benchmark 发现，小数据量的 Shuffle 可以和 Spark 原生 Shuffle 持平。大数据量的 Shuffle 可以比 Spark 原生 Shuffle 快 30%。Benchmark结果链接: https://github.com/apache/uniffle/blob/master/docs/benchmark.md
 
 ## 正确性
 
@@ -168,15 +168,15 @@ Uniffle MapReduce 被B站，知乎等公司混部场景下所使用。
 5. 计算引擎数据支持异步读取
 
 ## 总结
-Uniffle 从性能，正确性，稳定性，成本四个方面思考，打造了一款适合云原生架构的 Shuffle 系统。欢迎大家参与贡献 Uniffle 项目，Uniffle 项目地址是 https://github.com/apache/incubator-uniffle 。
+Uniffle 从性能，正确性，稳定性，成本四个方面思考，打造了一款适合云原生架构的 Shuffle 系统。欢迎大家参与贡献 Uniffle 项目，Uniffle 项目地址是 https://github.com/apache/uniffle 。
 
 ## 参考资料 
 [1] https://cloud.tencent.com/developer/article/1903023
 
 [2] https://cloud.tencent.com/developer/article/1943179
 
-[3] https://github.com/apache/incubator-uniffle/pull/137
+[3] https://github.com/apache/uniffle/pull/137
 
-[4] https://github.com/apache/incubator-uniffle/pull/307
+[4] https://github.com/apache/uniffle/pull/307
 
-[5] https://github.com/apache/incubator-uniffle/pull/950
+[5] https://github.com/apache/uniffle/pull/950
