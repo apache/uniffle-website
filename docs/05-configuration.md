@@ -106,7 +106,7 @@ rss.server.commit.check.interval.max.ms|10000|Max interval(ms) for check commit 
 
 |Property Name|Default|Description|
 |---|---|---|
-|rss.c.ient.type|GRPC|rpc client type|
+|rss.client.type|GRPC_NETTY|rpc client type|
 |rss.client.retry.max|100|max rpc retry count|
 |rss.client.retry.interval.max|10000|rpc retry interval (ms)|
 |rss.coordinator.quorum|-|coordinator quorum to acess|
