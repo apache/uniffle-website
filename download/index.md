@@ -44,6 +44,18 @@ The latest release is `0.9.1`.
     </thead>
     <tbody>
         <tr>
+            <td>Apache Uniffle 0.10.0</td>
+            <td><a href="https://www.apache.org/dyn/closer.lua/uniffle/0.10.0/apache-uniffle-0.10.0-src.tar.gz">tar.gz</a></td>
+            <td><a href="https://downloads.apache.org/uniffle/0.10.0/apache-uniffle-0.10.0-src.tar.gz.sha512">SHA-512</a></td>
+            <td><a href="https://downloads.apache.org/uniffle/0.10.0/apache-uniffle-0.10.0-src.tar.gz.asc">ASC</a></td>
+            <td><a href="https://www.apache.org/dyn/closer.lua/uniffle/0.10.0/apache-uniffle-0.10.0-bin.tar.gz">tar.gz</a></td>
+            <td><a href="https://downloads.apache.org/uniffle/0.10.0/apache-uniffle-0.10.0-bin.tar.gz.sha512">SHA-512</a></td>
+            <td><a href="https://downloads.apache.org/uniffle/0.10.0/apache-uniffle-0.10.0-bin.tar.gz.asc">ASC</a></td>
+            <td><a href="https://uniffle.apache.org/download/release-notes-0.10.0">Release Notes</a></td>
+            <td>Junfan Zhang (IQIYI)</td>
+            <td>2025.09.25</td>
+        </tr>
+        <tr>
             <td>Apache Uniffle 0.9.2</td>
             <td><a href="https://www.apache.org/dyn/closer.lua/incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-src.tar.gz">tar.gz</a></td>
             <td><a href="https://downloads.apache.org/incubator/uniffle/0.9.2/apache-uniffle-0.9.2-incubating-src.tar.gz.sha512">SHA-512</a></td>
